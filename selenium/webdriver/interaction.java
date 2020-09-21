@@ -17,7 +17,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class droplist_custom {
+public class interaction {
 
 	WebDriver driver;
 	// By iconDroplist = By.xpath("//span[@id='number-button']");

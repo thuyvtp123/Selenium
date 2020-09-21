@@ -65,12 +65,12 @@ public class Window {
 		switchToWindowbyID(parentID);
 
 		WebElement email = driver.findElement(By.id("identifierId"));
-		email.sendKeys("thuy.vu@tiki.vn");
+		email.sendKeys("thuytest38@gmail.com");
 		WebElement btnNext1 = driver.findElement(By.xpath("//div[@id='identifierNext']/div/button/div[2]"));
 		btnNext1.click();
 
 		WebElement password = driver.findElement(By.name("password"));
-		password.sendKeys("Tiennam@1234567");
+		password.sendKeys("123456");
 		WebElement btnNext2 = driver.findElement(By.xpath("//div[@id='passwordNext']/div/button/div[2]"));
 		btnNext2.click();
 
